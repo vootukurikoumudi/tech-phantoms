@@ -1,0 +1,51 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>sign up</title> 
+    
+    
+            <link rel="stylesheet"  href=".\signup\signupstyle.css">    
+        
+</head>    
+<body style="background: url(background.png);
+background-size:50%;
+background-repeat:no repeat";>    
+    <h1>SIGN UP</h1><br>   
+    <div class="signin">    
+    <form id="signin" method="get" action="signin.php">    
+        <label>
+             <b>User Name</b>     
+       </label>    
+              <input type="text" name="Uname" id="Uname" placeholder="Username">    
+            <br><br>    
+        <label>
+           <b>Password</b> 
+           <br>  
+        </label>  
+            <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>  
+         <label>
+             <b>E-mail</b> 
+             <br> 
+         </label>
+            <input type="email" name="email" id="email" placeholder="email"> 
+          <br><br>
+         <label>
+             <b>Phone no</b>  
+             <br>
+         </label>
+          <input type="tel" name="tel" id="tel" placeholder="tel"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+         <br><br>
+         
+          <input type="button" name="log" id="log" value="SUBMIT">
+         <br><br>    
+         <p>Already have account?<a href=".\login\loginpage.html">LOG_IN</a></p>
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        <span><u>Forgot</u><a href="#">Password</a></span>    
+    </form>     
+</div>    
+</body>    
+</html>     

@@ -1,0 +1,94 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    
+    
+     font-family: 'Lucida Calligraphy';
+     
+}  
+.login{  
+        
+        width: 300px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 30 0 450px;  
+        padding: 20px;  
+         background: #ce93d8; 
+        border-radius: 40px ;  
+        font-family: 'Bradley Hand ITC'; 
+               
+}  
+h1{  
+    text-align: center;  
+    color: brown;  
+    padding: 20px;  
+     line-height:0;
+}  
+label{  
+    color: #630436;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}
+#email{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}
+#tel{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}
+  
+#log{ 
+     margin:centre;
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-right: 2px;  
+    color: black;  
+   float:left;
+}  
+#check
+{
+color: #630436;  
+    font-size: 17px; 
+}
+
+span{  
+    color: #630436;  
+    font-size: 17px; 
+     font-family: 'arial'; 
+}  
+span{  
+    color: #630436;  
+    font-size: 17px; 
+     font-family: 'arial'; 
+}  
+
+a{  
+ 
+    background-color: #ce93d8;  
+}  
